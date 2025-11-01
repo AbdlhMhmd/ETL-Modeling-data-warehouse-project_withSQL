@@ -1,3 +1,9 @@
+/*
+THIS CODE creates a new database named 'ETL_DataWareHouse' Using Master access
+Then, create the schemas for it 'bronze', 'silver', and 'gold' using the data warehouse access
+*/
+
+
 -- Create a new data warehouse named 'ETL_DataWareHouse'
 
 USE MASTER;  
