@@ -1,3 +1,18 @@
+/*
+===============================================================================
+DDL Script: Create Bronze Tables
+===============================================================================
+This code creates all the tables in the data warehouse and defines the columns and data types
+First, start with the 'if' statement to check if the table exists, and delete it. This step is to avoid any errors.
+The dataset consists of 2 databases 'erp' & 'crm' 
+I follow the lowercase in naming and start with the origin of each source.
+
+
+Here, I added dwh_create_date to track the creation date of each insert.
+===============================================================================
+*/
+
+
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE silver.crm_cust_info;
 GO
