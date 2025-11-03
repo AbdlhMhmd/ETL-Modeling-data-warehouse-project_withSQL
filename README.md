@@ -1,4 +1,4 @@
-# ETL-Modeling-data-warehouse-project_withSQL
+# ETL-Modeling-data-warehouse-project-with-SQL
 
 
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
